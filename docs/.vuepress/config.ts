@@ -8,7 +8,6 @@ import {tocPlugin} from "@vuepress/plugin-toc";
 const isDev = process.env.NODE_ENV === 'development';
 export default defineUserConfig({
     base: isDev ? '/' : '/rac-white-paper/',
-
     locales: {
         '/': {
             lang: 'zh-CN',
@@ -23,6 +22,7 @@ export default defineUserConfig({
     },
     theme: localTheme({
         contributors: false,
+        sidebarDepth: 0,
         locales: {
             '/': zhENSidebar,
             '/en_US/': enUSSidebar,

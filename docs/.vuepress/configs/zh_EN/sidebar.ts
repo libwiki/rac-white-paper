@@ -1,7 +1,7 @@
 export default [
     {
         text: 'DEFI发展',
-        link: '/zh_EN/0.README.md',
+        link: '/',
     },
     {
         text: 'BuryDAO简介',
