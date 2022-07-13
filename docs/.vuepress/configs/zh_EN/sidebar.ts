@@ -1,7 +1,7 @@
-module.exports = [
+export default [
     {
         text: 'DEFI发展',
-        link: '/',
+        link: '/zh_EN/0.README.md',
     },
     {
         text: 'BuryDAO简介',

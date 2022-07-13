@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     selectLanguageName: 'English',
     selectLanguageText: "Languages",
     navbar: [ // 顶部导航栏

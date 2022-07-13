@@ -1,5 +1,6 @@
-const sidebar = require("./sidebar")
-module.exports = {
+import sidebar from "./sidebar"
+
+export default {
     selectLanguageName: '简体中文',
     selectLanguageText: "语言",
     lastUpdatedText: "更新时间",
